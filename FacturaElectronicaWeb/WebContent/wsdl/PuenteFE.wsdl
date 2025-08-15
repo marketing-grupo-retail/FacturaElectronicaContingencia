@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsdl:definitions targetNamespace="http://servicio.fe.comfandi.grpretail.com" xmlns:apachesoap="http://xml.apache.org/xml-soap" xmlns:impl="http://servicio.fe.comfandi.grpretail.com" xmlns:intf="http://servicio.fe.comfandi.grpretail.com" xmlns:tns1="http://response.fe.comfandi.grpretail.com" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:wsdlsoap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<!--WSDL created by Apache Axis version: 1.4.1-SNAPSHOT
+Built on Nov 07, 2023 (07:57:58 UTC)-->
+ <wsdl:types>
+  <schema elementFormDefault="qualified" targetNamespace="http://servicio.fe.comfandi.grpretail.com" xmlns="http://www.w3.org/2001/XMLSchema">
+   <import namespace="http://response.fe.comfandi.grpretail.com"/>
+   <element name="cargaFactura">
+    <complexType>
+     <sequence>
+      <element name="pPointSale" type="xsd:string"/>
+      <element name="pAmount" type="xsd:long"/>
+      <element name="pDetail" type="xsd:string"/>
+      <element name="pTrxReference" type="xsd:string"/>
+      <element name="pFormat" type="xsd:int"/>
+      <element name="pQrType" type="xsd:string"/>
+      <element name="pExpiredTime" type="xsd:int"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="cargaFacturaResponse">
+    <complexType>
+     <sequence>
+      <element name="cargaFacturaReturn" type="tns1:PuenteFEResponse"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="autenticacion">
+    <complexType/>
+   </element>
+   <element name="autenticacionResponse">
+    <complexType>
+     <sequence>
+      <element name="autenticacionReturn" type="tns1:PuenteFEResponse"/>
+     </sequence>
+    </complexType>
+   </element>
+  </schema>
+  <schema elementFormDefault="qualified" targetNamespace="http://response.fe.comfandi.grpretail.com" xmlns="http://www.w3.org/2001/XMLSchema">
+   <complexType name="ExceptionDTO">
+    <sequence>
+     <element name="message" nillable="true" type="xsd:string"/>
+     <element name="state" nillable="true" type="xsd:string"/>
+    </sequence>
+   </complexType>
+   <complexType name="PuenteFEResponse">
+    <sequence>
+     <element name="amount" type="xsd:long"/>
+     <element name="branchId" nillable="true" type="xsd:string"/>
+     <element name="currency" nillable="true" type="xsd:string"/>
+     <element name="date" nillable="true" type="xsd:string"/>
+     <element name="deeplink" nillable="true" type="xsd:string"/>
+     <element name="description" nillable="true" type="xsd:string"/>
+     <element name="exception" nillable="true" type="tns1:ExceptionDTO"/>
+     <element name="idtransaction" nillable="true" type="xsd:string"/>
+     <element name="internalTransactionReference" nillable="true" type="xsd:string"/>
+     <element name="ordererIdentification" nillable="true" type="xsd:string"/>
+     <element name="ordererName" nillable="true" type="xsd:string"/>
+     <element name="posId" nillable="true" type="xsd:string"/>
+     <element name="qr" nillable="true" type="xsd:string"/>
+     <element name="status" nillable="true" type="xsd:string"/>
+     <element name="transactionId" nillable="true" type="xsd:string"/>
+     <element name="transferNumber" nillable="true" type="xsd:string"/>
+    </sequence>
+   </complexType>
+  </schema>
+ </wsdl:types>
+
+   <wsdl:message name="cargaFacturaResponse">
+
+      <wsdl:part element="impl:cargaFacturaResponse" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="autenticacionRequest">
+
+      <wsdl:part element="impl:autenticacion" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="autenticacionResponse">
+
+      <wsdl:part element="impl:autenticacionResponse" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="cargaFacturaRequest">
+
+      <wsdl:part element="impl:cargaFactura" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:portType name="PuenteFE">
+
+      <wsdl:operation name="cargaFactura">
+
+         <wsdl:input message="impl:cargaFacturaRequest" name="cargaFacturaRequest">
+
+       </wsdl:input>
+
+         <wsdl:output message="impl:cargaFacturaResponse" name="cargaFacturaResponse">
+
+       </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="autenticacion">
+
+         <wsdl:input message="impl:autenticacionRequest" name="autenticacionRequest">
+
+       </wsdl:input>
+
+         <wsdl:output message="impl:autenticacionResponse" name="autenticacionResponse">
+
+       </wsdl:output>
+
+      </wsdl:operation>
+
+   </wsdl:portType>
+
+   <wsdl:binding name="PuenteFESoapBinding" type="impl:PuenteFE">
+
+      <wsdlsoap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+
+      <wsdl:operation name="cargaFactura">
+
+         <wsdlsoap:operation soapAction=""/>
+
+         <wsdl:input name="cargaFacturaRequest">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:input>
+
+         <wsdl:output name="cargaFacturaResponse">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="autenticacion">
+
+         <wsdlsoap:operation soapAction=""/>
+
+         <wsdl:input name="autenticacionRequest">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:input>
+
+         <wsdl:output name="autenticacionResponse">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:output>
+
+      </wsdl:operation>
+
+   </wsdl:binding>
+
+   <wsdl:service name="PuenteFEService">
+
+      <wsdl:port binding="impl:PuenteFESoapBinding" name="PuenteFE">
+
+         <wsdlsoap:address location="http://localhost:8080/FacturaElectronicaWeb/services/PuenteFE"/>
+
+      </wsdl:port>
+
+   </wsdl:service>
+
+</wsdl:definitions>

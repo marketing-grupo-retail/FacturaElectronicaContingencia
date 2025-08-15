@@ -1,0 +1,11 @@
+build/
+CVS/
+/.metadata/
+src/db(LocalAlfonso).properties
+src/db(produccion).properties
+src/db(Pruebas).properties
+src/BusinessParams.properties
+src/BusinessParams(Multihilos4Endpoints).properties
+src/BusinessParams(produccion).properties
+src/BusinessParams(Pruebas).properties
+src/com/grpretail/comfandi/fe/carvajal.properties

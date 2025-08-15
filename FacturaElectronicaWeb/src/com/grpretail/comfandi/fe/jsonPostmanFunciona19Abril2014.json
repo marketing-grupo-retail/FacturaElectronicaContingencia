@@ -1,0 +1,282 @@
+{
+	"UploadRequest": {
+		"ClientId": "890303208",
+		"AccountId": "890303208_api01",
+		"Invoice": {
+			"ENC": {
+				"ENC_1": "INVOIC",
+				"ENC_2": 890303208,
+				"ENC_3": 222222222222,
+				"ENC_4": "UBL 2.1",
+				"ENC_5": "DIAN 2.1: Factura Electrónica de Venta",
+				"ENC_6": "SETT255575",
+				"ENC_7": "2024-04-15",
+				"ENC_8": "17:55:00-05:00",
+				"ENC_9": "01",
+				"ENC_10": "COP",
+				"ENC_15": 4,
+				"ENC_16": "2024-04-09",
+				"ENC_17": "",
+				"ENC_20": 2,
+				"ENC_21": "10"
+			},
+			"EMI": {
+				"EMI_1": 1,
+				"EMI_2": 890303208,
+				"EMI_3": 31,
+				"EMI_4": "No aplica",
+				"EMI_6": "CAJA DE COMPENSACION FAMILIAR DEL VALLE DEL CAUCA - COMFAMILIAR ANDI - COMFANDI",
+				"EMI_7": "COMFANDI",
+				"EMI_10": "AV.CIUDAD DE CALI 42 B 21",
+				"EMI_11": 76,
+				"EMI_13": "CALI",
+				"EMI_14": 760013,
+				"EMI_15": "CO",
+				"EMI_19": "VALLE DEL CAUCA",
+				"EMI_21": "Colombia",
+				"EMI_22": 5,
+				"EMI_23": 76001,
+				"EMI_24": "CAJA DE COMPENSACION FAMILIAR DEL VALLE DEL CAUCA - COMFAMILIAR ANDI - COMFANDI",
+				"TAC": {
+					"TAC_1": "O-13;O-23"
+				},
+				"DFE": {
+					"DFE_1": 11001,
+					"DFE_2": 11,
+					"DFE_3": "CO",
+					"DFE_5": "Colombia",
+					"DFE_6": "Bogot�",
+					"DFE_7": "BOGOT� D.C."
+				},
+				"ICC": {
+					"ICC_9": "SETT"
+				},				"CDE": {
+					"CDE_1": 1,
+					"CDE_4": "apipruebas@comfandi.com.co"
+				},
+				"GTE": {					"GTE_1": "ZA",
+					"GTE_2": "IVA e INC"
+				}
+			},
+			"ADQ": {
+				"ADQ_1": 2,
+				"ADQ_2": 22222222222,
+				"ADQ_3": 13,
+				"ADQ_4": 49,
+				"ADQ_6": "Consumidor Final",
+				"ADQ_7": "Consumidor Final",
+				"ADQ_8": "",
+				"ADQ_9": "Consumidor Final",
+				"ADQ_10": "En algun lugar",
+				"ADQ_11": 11,
+				"ADQ_12": "",
+				"ADQ_13": "BOGOT� D.C.",
+				"ADQ_14": "",
+				"ADQ_15": "CO",
+				"ADQ_18": "",
+				"ADQ_19": "Bogot�",
+				"ADQ_21": "Colombia",
+				"ADQ_22": 0,
+				"ADQ_23": 11001,
+				"ADQ_24": 22222222222,
+				"TCR": {
+					"TCR_1": "R-99-PN"
+				},
+				"ILA": {
+					"ILA_1": "Consumidor Final",
+					"ILA_2": 22222222222,
+					"ILA_3": 13,
+					"ILA_4": 0
+				},
+				"DFA": {
+					"DFA_1": "CO",
+					"DFA_2": 11,
+					"DFA_3": "",
+					"DFA_4": 11001,
+					"DFA_5": "Colombia",
+					"DFA_6": "Bogot�",
+					"DFA_7": "BOGOT� D.C."
+				},
+				"CDA": {
+					"CDA_1": 1,
+					"CDA_2": "Consumidor Final"
+				},
+				"GTA": {
+					"GTA_1": "ZZ",
+					"GTA_2": "No aplica"
+				}
+			},
+			"TOT": {
+				"TOT_1": 1971465.67,
+				"TOT_2": "COP",
+				"TOT_3": 1865.67,
+				"TOT_4": "COP",
+				"TOT_5": 1972100.00,
+				"TOT_6": "COP",
+				"TOT_7": 1972100.00,
+				"TOT_8": "COP"
+			},
+			"TIM": [
+				{
+					"TIM_1": "false",
+					"TIM_2": 354.48,
+					"TIM_3": "COP",
+					"IMP": [
+						{
+							"IMP_1": "01",
+							"IMP_2": 1865.67,
+							"IMP_3": "COP",
+							"IMP_4": 354.48,
+							"IMP_5": "COP",
+							"IMP_6": "19.00"
+						}
+					]
+				},
+				{
+					"TIM_1": "false",
+					"TIM_2": 279.85,
+					"TIM_3": "COP",
+					"IMP": [
+						{
+							"IMP_1": "35",
+							"IMP_2": 1865.67,
+							"IMP_3": "COP",
+							"IMP_4": 279.85,
+							"IMP_5": "COP",
+							"IMP_6": "15.00",
+							"IMP_11": "ICUI"
+						}
+					]
+				}
+			],
+			"DRF": {
+				"DRF_1": 18760000001,
+				"DRF_2": "2019-01-19",
+				"DRF_3": "2030-01-19",
+				"DRF_4": "SETT",
+				"DRF_5": 1,
+				"DRF_6": 5000000
+			},
+			"MEP": [
+				{
+					"MEP_1": "10",
+					"MEP_2": 1,
+					"MEP_3": "2024-02-15"
+				}
+			],
+			"ITE": [
+				{
+					"ITE_1": 1,
+					"ITE_3": 5.00,
+					"ITE_4": "94",
+					"ITE_5": 697000.00,
+					"ITE_6": "COP",
+					"ITE_7": 139400.00,
+					"ITE_8": "COP",
+					"ITE_11": "ENSURE ADVANCE 850",
+					"ITE_21": 697000.00,
+					"ITE_22": "COP",
+					"ITE_27": 5.00,
+					"ITE_28": "94",
+					"IAE": {
+						"IAE_1": 255667,
+						"IAE_2": 999
+					}
+				},
+				{
+					"ITE_1": 2,
+					"ITE_3": 5.00,
+					"ITE_4": "94",
+					"ITE_5": 697000.00,
+					"ITE_6": "COP",
+					"ITE_7": 139400.00,
+					"ITE_8": "COP",
+					"ITE_11": "ENSURE ADVCFRE850G",
+					"ITE_21": 697000.00,
+					"ITE_22": "COP",
+					"ITE_27": 5.00,
+					"ITE_28": "94",
+					"IAE": {
+						"IAE_1": 287201,
+						"IAE_2": 999
+					}
+				},
+				{
+					"ITE_1": 3,
+					"ITE_3": 4.00,
+					"ITE_4": "94",
+					"ITE_5": 575600.00,
+					"ITE_6": "COP",
+					"ITE_7": 143900.00,
+					"ITE_8": "COP",
+					"ITE_11": "GLUCERNAVANX850GR",
+					"ITE_21": 575600.00,
+					"ITE_22": "COP",
+					"ITE_27": 4.00,
+					"ITE_28": "94",
+					"IAE": {
+						"IAE_1": 313502,
+						"IAE_2": 999
+					}
+				},
+				{
+					"ITE_1": 4,
+					"ITE_3": 1.00,
+					"ITE_4": "94",
+					"ITE_5": 1865.67,
+					"ITE_6": "COP",
+					"ITE_7": 1865.67,
+					"ITE_8": "COP",
+					"ITE_11": "PRODUCTO SIN DESCRIPCION",
+					"ITE_21": 2500.00,
+					"ITE_22": "COP",
+					"ITE_27": 1.00,
+					"ITE_28": "94",
+					"IAE": {
+						"IAE_1": 888164,
+						"IAE_2": 999
+					},
+					"TII": [
+						{
+							"TII_1": 354.48,
+							"TII_2": "COP",
+							"TII_3": "false",
+							"IIM": [
+								{
+									"IIM_1": "01",
+									"IIM_2": 354.48,
+									"IIM_3": "COP",
+									"IIM_4": 1865.67,
+									"IIM_5": "COP",
+									"IIM_6": "19.00"
+								}
+							]
+						},
+						{
+							"TII_1": 279.85,
+							"TII_2": "COP",
+							"TII_3": "false",
+							"IIM": [
+								{
+									"IIM_1": "35",
+									"IIM_2": 279.85,
+									"IIM_3": "COP",
+									"IIM_4": 1865.67,
+									"IIM_5": "COP",
+									"IIM_6": "15.00",
+									"IIM_11": "ICUI"
+								}
+							]
+						}
+					]
+				}
+			],
+			"CTS": {
+					"CTS_1": "CGEN53"
+				},
+			"REF": [
+				{}
+			]
+		}
+	}
+}

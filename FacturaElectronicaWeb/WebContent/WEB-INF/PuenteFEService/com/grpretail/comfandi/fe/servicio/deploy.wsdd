@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><!-- Use this file to deploy some handlers/chains and services      --><!-- Two ways to do this:                                           --><!--   java org.apache.axis.client.AdminClient deploy.wsdd          --><!--      after the axis server is running                          --><!-- or                                                             --><!--   java org.apache.axis.utils.Admin client|server deploy.wsdd   --><!--      from the same directory that the Axis engine runs         --><wsdd:deployment xmlns:wsdd="http://xml.apache.org/axis/wsdd/" xmlns:XMLSchema="http://www.w3.org/2001/XMLSchema" xmlns:java="http://xml.apache.org/axis/wsdd/providers/java" xmlns:response.fe.comfandi.grpretail.com="http://response.fe.comfandi.grpretail.com" xmlns:servicio.fe.comfandi.grpretail.com="http://servicio.fe.comfandi.grpretail.com">
+  <wsdd:service name="PuenteFE" provider="java:RPC" use="literal" style="wrapped">
+    <wsdd:parameter name="wsdlTargetNamespace" value="http://servicio.fe.comfandi.grpretail.com"/>
+    <wsdd:parameter name="wsdlServiceElement" value="PuenteFEService"/>
+    <wsdd:parameter name="schemaQualified" value="http://response.fe.comfandi.grpretail.com,http://servicio.fe.comfandi.grpretail.com"/>
+    <wsdd:parameter name="wsdlServicePort" value="PuenteFE"/>
+    <wsdd:parameter name="className" value="com.grpretail.comfandi.fe.servicio.PuenteFE"/>
+    <wsdd:parameter name="wsdlPortType" value="PuenteFE"/>
+    <wsdd:parameter name="typeMappingVersion" value="1.2"/>
+    <wsdd:parameter name="allowedMethods" value="autenticacion cargaFactura"/>
+    <wsdd:typeMapping qname="response.fe.comfandi.grpretail.com:PuenteFEResponse" type="java:com.grpretail.comfandi.fe.response.PuenteFEResponse" encodingStyle="" serializer="org.apache.axis.encoding.ser.BeanSerializerFactory" deserializer="org.apache.axis.encoding.ser.BeanDeserializerFactory"/>
+    <wsdd:typeMapping qname="response.fe.comfandi.grpretail.com:ExceptionDTO" type="java:com.grpretail.comfandi.fe.response.ExceptionDTO" encodingStyle="" serializer="org.apache.axis.encoding.ser.BeanSerializerFactory" deserializer="org.apache.axis.encoding.ser.BeanDeserializerFactory"/>
+    <wsdd:operation name="cargaFactura" qname="servicio.fe.comfandi.grpretail.com:cargaFactura" returnQName="servicio.fe.comfandi.grpretail.com:cargaFacturaReturn" returnType="response.fe.comfandi.grpretail.com:PuenteFEResponse" soapAction="">
+      <wsdd:parameter qname="servicio.fe.comfandi.grpretail.com:pPointSale" type="XMLSchema:string"/>
+      <wsdd:parameter qname="servicio.fe.comfandi.grpretail.com:pAmount" type="XMLSchema:long"/>
+      <wsdd:parameter qname="servicio.fe.comfandi.grpretail.com:pDetail" type="XMLSchema:string"/>
+      <wsdd:parameter qname="servicio.fe.comfandi.grpretail.com:pTrxReference" type="XMLSchema:string"/>
+      <wsdd:parameter qname="servicio.fe.comfandi.grpretail.com:pFormat" type="XMLSchema:int"/>
+      <wsdd:parameter qname="servicio.fe.comfandi.grpretail.com:pQrType" type="XMLSchema:string"/>
+      <wsdd:parameter qname="servicio.fe.comfandi.grpretail.com:pExpiredTime" type="XMLSchema:int"/>
+    </wsdd:operation>
+    <wsdd:operation name="autenticacion" qname="servicio.fe.comfandi.grpretail.com:autenticacion" returnQName="servicio.fe.comfandi.grpretail.com:autenticacionReturn" returnType="response.fe.comfandi.grpretail.com:PuenteFEResponse" soapAction=""/>
+  </wsdd:service>
+</wsdd:deployment>

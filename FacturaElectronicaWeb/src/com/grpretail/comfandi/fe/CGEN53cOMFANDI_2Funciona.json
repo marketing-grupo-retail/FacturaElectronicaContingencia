@@ -1,0 +1,345 @@
+{
+	"UploadRequest": {
+		"ClientId": "890303208",
+		"AccountId": "890303208_api01",
+		"Invoice": {
+			"ENC": {
+				"ENC_1": "INVOIC",
+				"ENC_2": 890303208,
+				"ENC_3": 22222222222,
+				"ENC_4": "UBL 2.1",
+				"ENC_5": "DIAN 2.1: Factura Electrónica de Venta",
+				"ENC_6": "SETT255597",
+				"ENC_7": "2024-04-12",
+				"ENC_8": "17:41:28-05:00",
+				"ENC_9": "01",
+				"ENC_10": "COP",
+				"ENC_15": 4,
+				"ENC_16": "2024-03-31",
+				"ENC_17": "",
+				"ENC_20": 2,
+				"ENC_21": "10"
+			},
+			"EMI": {
+				"EMI_1": 1,
+				"EMI_2": 890303208,
+				"EMI_3": 31,
+				"EMI_4": "No aplica",
+				"EMI_6": "CAJA DE COMPENSACIÓN FAMILIAR DEL VALLE DEL CAUCA COMFAMILIAR ANDI - COMFANDI",
+				"EMI_7": "CAJA DE COMPENSACIÓN FAMILIAR DEL VALLE DEL CAUCA COMFAMILIAR ANDI - COMFANDI",
+				"EMI_10": "Transversal 25 #12-34 - CALI - CO",
+				"EMI_11": 11,
+				"EMI_13": "BOGOTÁ D.C.",
+				"EMI_14": 110221,
+				"EMI_15": "CO",
+				"EMI_19": "Bogotá",
+				"EMI_21": "Colombia",
+				"EMI_22": 5,
+				"EMI_23": 11001,
+				"EMI_24": "CAJA DE COMPENSACIÓN FAMILIAR DEL VALLE DEL CAUCA COMFAMILIAR ANDI - COMFANDI",
+				"TAC": {
+					"TAC_1": "O-13;O-23"
+				},
+				"DFE": {
+					"DFE_1": 11001,
+					"DFE_2": 11,
+					"DFE_3": "CO",
+					"DFE_5": "Colombia",
+					"DFE_6": "Bogotá",
+					"DFE_7": "BOGOTÁ D.C."
+				},
+				"ICC": {
+					"ICC_9": "SETT"
+				},
+				"CDE": {
+					"CDE_1": 1,
+					"CDE_4": "apipruebas@comfandi.com.co"
+				},
+				"GTE": {
+					"GTE_1": "01",
+					"GTE_2": "IVA"
+				}
+			},
+			"ADQ": {
+				"ADQ_1": 2,
+				"ADQ_2": 22222222222,
+				"ADQ_3": 13,
+				"ADQ_4": 49,
+				"ADQ_6": "Consumidor Final",
+				"ADQ_7": "Consumidor Final",
+				"ADQ_8": "",
+				"ADQ_9": "Consumidor Final",
+				"ADQ_10": "En algun lugar",
+				"ADQ_11": 11,
+				"ADQ_12": "",
+				"ADQ_13": "BOGOTÁ D.C.",
+				"ADQ_14": "",
+				"ADQ_15": "CO",
+				"ADQ_18": "",
+				"ADQ_19": "Bogotá",
+				"ADQ_21": "Colombia",
+				"ADQ_22": 0,
+				"ADQ_23": 11001,
+				"ADQ_24": 22222222222,
+				"TCR": {
+					"TCR_1": "R-99-PN"
+				},
+				"ILA": {
+					"ILA_1": "Consumidor Final",
+					"ILA_2": 22222222222,
+					"ILA_3": 13,
+					"ILA_4": 0
+				},
+				"DFA": {
+					"DFA_1": "CO",
+					"DFA_2": 11,
+					"DFA_3": "",
+					"DFA_4": 11001,
+					"DFA_5": "Colombia",
+					"DFA_6": "Bogotá",
+					"DFA_7": "BOGOTÁ D.C."
+				},
+				"CDA": {
+					"CDA_1": 1,
+					"CDA_2": "Consumidor Final"
+				},
+				"GTA": {
+					"GTA_1": "ZZ",
+					"GTA_2": "No aplica"
+				}
+			},
+			"TOT": {
+				"TOT_1": 360950,
+				"TOT_2": "COP",
+				"TOT_3": 55850,
+				"TOT_4": "COP",
+				"TOT_5": 368341,
+				"TOT_6": "COP",
+				"TOT_7": 368341,
+				"TOT_8": "COP",
+				"TOT_9": 0,
+				"TOT_10": "COP",
+				"TOT_13": 0,
+				"TOT_14": "COP"
+			},
+			"TIM": [
+				{
+					"TIM_1": "false",
+					"TIM_2": 7391,
+					"TIM_3": "COP",
+					"TIM_4": 0,
+					"TIM_5": "COP",
+					"IMP": [
+						{
+							"IMP_1": "01",
+							"IMP_2": 38900,
+							"IMP_3": "COP",
+							"IMP_4": 7391,
+							"IMP_5": "COP",
+							"IMP_6": "19.00"
+						},
+						{
+							"IMP_1": "01",
+							"IMP_2": 16950,
+							"IMP_3": "COP",
+							"IMP_4": 0,
+							"IMP_5": "COP",
+							"IMP_6": "0.00"
+						}
+					]
+				}
+			],
+			"ANT": [
+				{
+					"ANT_1": 0,
+					"ANT_2": "COP",
+					"ANT_5": "COPAGO/CUOTA MODERADORA",
+					"ANT_6": "2023-01-19"
+				}
+			],
+			"DRF": {
+				"DRF_1": 18760000001,
+				"DRF_2": "2019-01-19",
+				"DRF_3": "2030-01-19",
+				"DRF_4": "SETT",
+				"DRF_5": 1,
+				"DRF_6": 5000000
+			},
+			"MEP": [
+				{
+					"MEP_1": "10",
+					"MEP_2": 1,
+					"MEP_3": "2023-01-19"
+				}
+			],
+			"PAY": {
+				"PAY_1": "SETT0"
+			},
+			"ITE": [
+				{
+					"ITE_1": 1,
+					"ITE_3": 1,
+					"ITE_4": "94",
+					"ITE_5": 21950,
+					"ITE_6": "COP",
+					"ITE_7": 21950,
+					"ITE_8": "COP",
+					"ITE_11": "Producto 1",
+					"ITE_12": "",
+					"ITE_18": "26000",
+					"ITE_19": 21950,
+					"ITE_20": "COP",
+					"ITE_21": 21950,
+					"ITE_22": "COP",
+					"ITE_27": 1,
+					"ITE_28": "94",
+					"IAE": {
+						"IAE_1": 0,
+						"IAE_2": 0
+					},
+					"TII": [
+						{
+							"TII_1": 4171,
+							"TII_2": "COP",
+							"TII_3": "false",
+							"TII_4": 0,
+							"TII_5": "COP",
+							"IIM": [
+								{
+									"IIM_1": "01",
+									"IIM_2": 4171,
+									"IIM_3": "COP",
+									"IIM_4": 21950,
+									"IIM_5": "COP",
+									"IIM_6": "19.00"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ITE_1": 2,
+					"ITE_3": 1,
+					"ITE_4": "94",
+					"ITE_5": 0,
+					"ITE_6": "COP",
+					"ITE_7": 0,
+					"ITE_8": "COP",
+					"ITE_11": "Producto 2",
+					"ITE_12": "",
+					"ITE_18": "42105",
+					"ITE_19": 0,
+					"ITE_20": "COP",
+					"ITE_21": 0,
+					"ITE_22": "COP",
+					"ITE_27": 1,
+					"ITE_28": "94",
+					"IAE": {
+						"IAE_1": 0,
+						"IAE_2": 0
+					},
+					"IPA": {
+						"IPA_1": "01",
+						"IPA_2": 16950,
+						"IPA_3": "COP"
+					},
+					"TII": [
+						{
+							"TII_1": 3221,
+							"TII_2": "COP",
+							"TII_3": "false",
+							"TII_4": 0,
+							"TII_5": "COP",
+							"IIM": [
+								{
+									"IIM_1": "01",
+									"IIM_2": 3221,
+									"IIM_3": "COP",
+									"IIM_4": 16950,
+									"IIM_5": "COP",
+									"IIM_6": "19.00"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ITE_1": 3,
+					"ITE_3": 1,
+					"ITE_4": "94",
+					"ITE_5": 0,
+					"ITE_6": "COP",
+					"ITE_7": 0,
+					"ITE_8": "COP",
+					"ITE_11": "Producto 3",
+					"ITE_12": "",
+					"ITE_18": "42191",
+					"ITE_19": 0,
+					"ITE_20": "COP",
+					"ITE_21": 0,
+					"ITE_22": "COP",
+					"ITE_27": 1,
+					"ITE_28": "94",
+					"IAE": {
+						"IAE_1": 0,
+						"IAE_2": 0
+					},
+					"IPA": {
+						"IPA_1": "01",
+						"IPA_2": 16950,
+						"IPA_3": "COP"
+					},
+					"TII": [
+						{
+							"TII_1": 0,
+							"TII_2": "COP",
+							"TII_3": "false",
+							"TII_4": 0,
+							"TII_5": "COP",
+							"IIM": [
+								{
+									"IIM_1": "01",
+									"IIM_2": 0,
+									"IIM_3": "COP",
+									"IIM_4": 16950,
+									"IIM_5": "COP",
+									"IIM_6": "0.00"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ITE_1": 4,
+					"ITE_3": 20,
+					"ITE_4": "94",
+					"ITE_5": 339000,
+					"ITE_6": "COP",
+					"ITE_7": 16950,
+					"ITE_8": "COP",
+					"ITE_11": "Producto 4",
+					"ITE_12": "",
+					"ITE_18": "220",
+					"ITE_19": 339000,
+					"ITE_20": "COP",
+					"ITE_21": 339000,
+					"ITE_22": "COP",
+					"ITE_27": 20,
+					"ITE_28": "94",
+					"IAE": {
+						"IAE_1": 0,
+						"IAE_2": 0
+					}
+				}
+			],
+			"CTS": {
+				"CTS_1": "CGEN53"
+			},
+			"REF": [
+				{
+					
+				}
+			]
+		}
+	}
+}

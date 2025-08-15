@@ -4,6 +4,7 @@ CVS/
 src/db(LocalAlfonso).properties
 src/db(produccion).properties
 src/db(Pruebas).properties
+src/db(iCloud).properties
 src/BusinessParams.properties
 src/BusinessParams(Multihilos4Endpoints).properties
 src/BusinessParams(produccion).properties
